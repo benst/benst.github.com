@@ -1,5 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #bgImage {
   width: 1024px;
-  margin-left: auto;
-  margin-right: auto; 
+  margin: auto;
+/*  margin-right: auto; */
 }
