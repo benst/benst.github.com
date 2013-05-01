@@ -3,8 +3,59 @@ body {
   padding: 0;
 }
 
-#bgImage {
+#container {
+  position: relative;
   width: 1024px;
-  margin: auto;
-/*  margin-right: auto; */
+  height: 2000px;
+  margin: 0px auto;
+  background: #fff8e7;
+}
+
+#bgImage {
+/*  position: absolute;*/
+  background: url('BG@2x.jpg') no-repeat left top;
+  background-size: 1024px;
+  width: 1024px;
+  height: 2000px;
+}
+
+#title {
+  position: absolute;
+  top: 104px;
+  left: 150px;
+  background: url('title@2x.png') no-repeat left top;
+  background-size: 323px;
+  width: 323px;
+  height: 275px;
+}
+
+#AppStoreButton {
+  position: absolute;
+  top: 390px;
+  left: 150px;
+  background: url('appStoreButton@2x.png') no-repeat left top;
+  background-size: 310px;
+  width: 310px;
+  height: 98px;
+}
+
+#BuyNowButton {
+  position: absolute;
+  top: 500px;  
+  left: 150px;
+  background: url('buyNowButton@2x.png') no-repeat left top;
+  background-size: 198px 86px;
+  width: 198px;
+  height: 86px;
+}
+
+#BuyNowLink {
+  display: block;
+  position: absolute;
+  top: 500px;  
+  left: 150px;
+  background: url('buyNowButton@2x.png') no-repeat left top;
+  background-size: 198px 86px;
+  width: 198px;
+  height: 86px;
 }
