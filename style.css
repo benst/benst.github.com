@@ -11,19 +11,41 @@ body {
   background: #fff8e7;
 }
 
-#bgImage {
-  background: url('BG@2x.jpg') no-repeat left top;
-  background-size: 1024px;
-  width: 1024px;
-  height: 2000px;
+/*@media
+only screen and (-webkit-min-device-pixel-ratio: 1),
+only screen and (   min--moz-device-pixel-ratio: 1),
+only screen and (     -o-min-device-pixel-ratio: 1),
+only screen and (        min-device-pixel-ratio: 1) {
+  
+*/  #bgImage {
+    background: url('BG.jpg') no-repeat left top;
+    background-size: contain;
+    width: 1024px;
+    height: 2000px;
+  }
+/*}*/
+
+@media
+only screen and (-Webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+  #bgImage {
+    background: url('BG@2x.jpg') no-repeat left top;
+    -webkit-background-size:contain;
+  }
 }
+
 
 #icon {
   position: absolute;
   top: 18px;
   left: 85px;
   background: url('icon@2x.png') no-repeat left top;
-  background-size: 227px;
+  background-size: contain;
   width: 227px;
   height: 227px;
 }
@@ -33,7 +55,7 @@ body {
   top: 104px;
   left: 150px;
   background: url('title@2x.png') no-repeat left top;
-  background-size: 323px;
+  background-size: contain;
   width: 323px;
   height: 275px;
 }
@@ -43,7 +65,7 @@ body {
   top: 390px;
   left: 150px;
   background: url('appStoreButton@2x.png') no-repeat left top;
-  background-size: 310px;
+  background-size: contain;
   width: 310px;
   height: 98px;
 }
@@ -54,7 +76,7 @@ body {
   top: 500px;  
   left: 150px;
   background: url('buyNowButton@2x.png') no-repeat left top;
-  background-size: 198px 86px;
+  background-size: contain;
   width: 198px;
   height: 86px;
 }
