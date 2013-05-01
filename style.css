@@ -12,7 +12,6 @@ body {
 }
 
 #bgImage {
-/*  position: absolute;*/
   background: url('BG@2x.jpg') no-repeat left top;
   background-size: 1024px;
   width: 1024px;
