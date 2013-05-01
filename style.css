@@ -19,6 +19,16 @@ body {
   height: 2000px;
 }
 
+#icon {
+  position: absolute;
+  top: 18px;
+  left: 85px;
+  background: url('icon@2x.png') no-repeat left top;
+  background-size: 227px;
+  width: 227px;
+  height: 227px;
+}
+
 #title {
   position: absolute;
   top: 104px;
