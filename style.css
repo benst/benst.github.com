@@ -49,16 +49,6 @@ body {
 }
 
 #BuyNowButton {
-  position: absolute;
-  top: 500px;  
-  left: 150px;
-  background: url('buyNowButton@2x.png') no-repeat left top;
-  background-size: 198px 86px;
-  width: 198px;
-  height: 86px;
-}
-
-#BuyNowLink {
   display: block;
   position: absolute;
   top: 500px;  
