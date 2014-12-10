@@ -14,8 +14,8 @@ div.header-outer {
 
 div.header-inner {
     margin: 0 auto;
-    max-width: 944;
-    min-width: 280;
+    max-width: 944px;
+    min-width: 280px;
     color: black;
 }
 
@@ -26,8 +26,8 @@ div.appstorebadge {
 div.firstrow-content {
     background: white;
     margin: 0 auto;
-    max-width: 944;
-    min-width: 280;
+    max-width: 944px;
+    min-width: 280px;
 }
 
 span.title {
