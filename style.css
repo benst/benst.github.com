@@ -16,8 +16,11 @@ div.header-outer {
 
 div.header-inner {
     margin: 0 auto;
-    width: 944;
+    max-width: 944;
+    min-width: 768;
     color: black;
+    padding: 0 80;
+    height: 200;
 }
 
 div.title-border {
@@ -30,7 +33,7 @@ div.title-border {
 
 div.appstorebadge {
     float: right;
-    margin: 60 0
+    margin: 60 0;
 }
 
 span.title {
@@ -51,6 +54,10 @@ span.tagline {
 /*    text-align: center;*/
 }
 
+img {
+    max-width: 100%;
+}
+
 img.portrait {
     height: 568;
     width: 320;
@@ -68,7 +75,8 @@ div.firstrow {
 div.firstrow-content {
     background: white;
     margin: 0 auto;
-    width: 944;
+    max-width: 944;
+    min-width: 768;
 /*    height: 568;*/
     padding: 80;
 }
