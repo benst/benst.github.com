@@ -158,13 +158,44 @@ div.right-text {
     width: 680;
 }
 
-span.heading {
-    font-family: futura, helvetica, arial;
-    font-size: 4em;
-    font-weight: 100;
-    display: table-cell;
-    vertical-align: middle;
-    height: 568;
-    text-align: center;
-    width: 680;
+div.footer-outer {
+    background: #ddd;
 }
+
+div.footer-outer a:link {
+    color: #111;
+    text-decoration: none;
+}
+
+    
+div.footer-inner {
+    margin: 0 auto;
+    min-width: 280px;
+    max-width: 944px;
+    color: white;
+    padding: 20;
+}
+
+div.footer-links {
+/*    float: left;*/
+    font-weight: bold;
+}
+
+div.footer-links a.title {
+    color: #333;
+}
+
+div.footer-links a.app {
+    color: #000;
+}
+
+span.footer-copyright {
+    color: #333;
+}
+
+div.disclaimer {
+    font-size: 0.8em;
+    margin: 20 0;
+    color: #888;
+}
+
